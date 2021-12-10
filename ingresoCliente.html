@@ -3,41 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Ingreso de datos</title>
-    <link href="./css/style2.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-        <h1>Ingreso de empleados</h1>
+        <h1>Ingreso clientes</h1>
     </header>
     <section>
         <article class= "fondo">
             <h2>
-                Ingreso de datos para enmpleados
+                Ingreso datos del cliente
             </h2>
-
             <div id="container">
                 <form> 
-                    Nombre:
+                    <div>
+                        Nombre:
                     <br>
                     <input type="text" id = "nombre">
+                    </div>
+                    
+                    Apellido:
+                    <br>
+                    <input type="text" id = "apellido">
                     <br>
                     <br>
-                    Correo electronico:
+                    CUI;
                     <br>
-                    <input type="text" id = "correo">
-                    <br>
-                    <br>
-                    Contraseña;
-                    <br>
-                    <input type="text" id = "contrasena">
+                    <input type="text" id = "cui">
                     <br>
                     <br>
-                    Confirmar contraseña:
+                    Departamento:
                     <br>
-                    <input type="text" id = "confir">
+                    <input type="text" id = "departamento">
                     <br>
                     <br>
-                    <button onclick="registrar()" type="button">Registrar</button>
+                    <button onclick="ingresar()" type="button">Ingresar cliente</button>
                 </form>
             </div>
             
