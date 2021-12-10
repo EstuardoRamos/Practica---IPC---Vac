@@ -6,6 +6,7 @@ const departamento = document.getElementById("departamento");
 const correo = document.getElementById("correo");
 const contrasena = document.getElementById("contrasena");
 const confir = document.getElementById("confir");
+let bar = document.getElementById("bar");
 
 function registrar() {
 
@@ -24,7 +25,8 @@ function registrar() {
 
 function iniciar() {
     console.log(nombre.value);
-    alert('Bienvenido ' + nombre.value);
+    
+    window.confirm('Bienvenido ' + nombre.value);
 }
 
 function ingresar() {
@@ -33,4 +35,16 @@ console.log(apellido.value);
 console.log(cui.value);
 console.log(departamento.value);
 alert('Datos ingresados');
+}
+
+function cambiar(){
+    console.log(bar.value);
+    if(bar.value==='reg'){
+        console.log(bar.value);
+        location.href="./ingresoDatos.html"
+    }else if(bar.value==='ini'){
+        location.href="./login.html"
+    }else{
+        location.href="./ingresoCliente.html"
+    }
 }

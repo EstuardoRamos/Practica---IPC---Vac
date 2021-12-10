@@ -1,11 +1,10 @@
-body{
-    background-color: gray
-}
+	
 
 #container{
-      
+    
     height: 400px;
 			width: 350px;
+            text-align: center;
 			margin-top: auto;
 			margin-bottom: auto;
 			background-color: blueviolet;
